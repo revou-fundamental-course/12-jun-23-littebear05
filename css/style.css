@@ -1,0 +1,66 @@
+/* MARK: DEFAULT */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+header {
+    background-color:#F2D8D8;
+    color: #374259;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}       
+
+label {
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #374259;
+}
+
+button {
+    background-color: #9DB2BF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;    
+}
+
+button:hover {
+    background-color: #545B77;
+
+}
+
+button:active {
+    transform: translateY(1px);
+    background-color: #393f5a;
+
+}
+
+/* MARK: ID */
+#InputField{
+    outline: none;
+    font-size: 18px;
+    border-radius: 8px;
+    border: solid #D7C0AE;
+    padding: 10px;
+}
+
+#InputField:focus {
+    border: solid #967E76;
+}
+
+/* MARK: CLASS */
+.InputSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.InputButtonSection {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
