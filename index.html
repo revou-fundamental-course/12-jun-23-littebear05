@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel ="script" href ="./js/script.js">
+    <title>Temperature Conversion</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="calcTemp">
+            <header>
+                <h1 class="title">Temperature Converter</h1>
+            </header>
+            <br><br>
+            <div class="emoji">
+                <h4>Enter the temperature to convert</h4>
+                <span class ="Temperature-icon"><i class="fa-solid fa-temperature-three-quarters"></i></span>
+            </div>
+            <br><br>
+
+    <section class="InputSection">
+        <label for="InputCelsius">Celsius (°C)</label>
+        <input type="number" id="InputCelsius" placeholder="Enter Celsius Degree"/>
+        <br>
+        <div class="InputButtonSection">
+            <button onclick="convertCelsius()" class="btn1">Convert</button>
+            <button onclick="resetFields()" class="btn2">Reset</button>
+            <button onclick="reverseFahrenheit()" class="btn3">Reverse</button>
+        </div>
+        
+    </section>
+
+    <br><br>
+
+    <section class="InputSection">
+        <label for="InputField2">Fahrenheit (°F)</label>
+        <input type="number" id="InputField2" placeholder="Degree in Fahrenheit"/>
+    </section>
+
+    <br><br><br>
+
+    <section class="InputSection">
+        <label for="InputField3">Calculation</label>
+        <input type="number" id="InputField3"/>
+    </section>
+
+    </form>
+
+<script type="text/javascript" src="script.js"></script>
+
+
+</body>
+</html>
+
+
